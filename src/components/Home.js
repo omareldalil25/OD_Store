@@ -14,6 +14,11 @@ const Home = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
+    '/assets/banner_home1.png',
+    '/assets/banner_home2.png',
+    '/assets/banner_box1.jpg',
+    '/assets/banner_box2.jpg',
+    '/assets/banner_box3.jpg',
     '/assets/slide1.jpg',
     '/assets/slide2.jpg',
     '/assets/slide3.jpg',
