@@ -1,0 +1,103 @@
+/* الكلاس المميز لصفحة SignUp */
+.sign-up-page {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #219B9D, #4C1F7A); /* خلفية متدرجة باستخدام الألوان الجديدة */
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9); /* الخلفية البيضاء الشفافة */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: #11052C; /* اللون الداكن للعناوين */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* المدخلات */
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #FF8000; /* برتقالي عند التركيز */
+  background-color: #fff;
+  outline: none;
+}
+
+/* الزر */
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #219B9D; /* أخضر مزرق */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1A7F7A; /* أخضر داكن عند المرور */
+}
+
+/* رسالة الخطأ */
+p {
+  color: #F24C3D; /* أحمر داكن لرسالة الخطأ */
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* النص في الأسفل */
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  color: #219B9D; /* أخضر مزرق في الروابط */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* وضع الـ Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  input, button {
+    font-size: 1rem;
+  }
+}

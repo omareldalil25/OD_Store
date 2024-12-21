@@ -1,0 +1,30 @@
+/* الأنماط الخاصة بصفحة الانترو */
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4C1F7A, #219B9D); /* تدرج بين اللونين الأزرق والأرجواني */
+  overflow: hidden;
+}
+
+.logo-animation {
+  width: 300px; /* تكبير الشعار */
+  animation: logoFadeIn 3s ease-out; /* تفعيل الأنيميشن */
+}
+
+/* أنيميشن الشعار */
+@keyframes logoFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

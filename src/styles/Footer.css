@@ -1,0 +1,45 @@
+.footer-container {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+    /* زيادة المسافة حول الفوتر */
+    text-align: center;
+    border-top: 0px solid #FF8000;
+    /* إضافة حد علوي بتصميم جديد */
+    border-radius: 25px 25px 0 0;
+    /* جعل الحواف العلوية مدورة */
+}
+
+.footer-bottom {
+    font-size: 16px;
+    /* زيادة حجم الخط */
+}
+
+.footer-text {
+    font-weight: bold;
+    /* جعل الخط عريض */
+    margin: 0;
+    color: #EEEEEE;
+}
+
+.separator {
+    margin: 10px auto;
+    width: 80px;
+    height: 2px;
+    background-color: #219B9D;
+    /* شريط فاصل باللون المميز */
+    margin-bottom: 10px;
+    /* مسافة بين الشريط والنص */
+}
+
+.footer-link {
+    color: #FF8000;
+    /* لون الرابط */
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    /* إضافة تأثير عند التمرير على الرابط */
+}

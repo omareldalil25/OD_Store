@@ -1,0 +1,44 @@
+/* src/components/Navbar.css */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #219B9D !important; /* تغيير اللون للنص */  
+  }
+  
+  .navbar-brand svg {
+    margin-right: 8px;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #219B9D; /* لون من اختيارك */
+  }
+  
+  .btn-light {
+    font-weight: 600;
+  }
+  .navbar .d-flex.align-items-center {
+    margin-top: -1px; /* أو القيمة التي تناسبك */
+  }
+  /* تعديل المسافة العلوية للأيقونة في الموبايل */
+@media (max-width: 767px) {
+  .navbar .btn.ms-2.d-lg-none {
+    margin-top: 20px; /* يمكنك تعديل هذه القيمة حسب الحاجة */
+  }
+}
+/* تعديل المسافة اليسرى للأيقونة في الموبايل */
+@media (max-width: 767px) {
+  .navbar .dropdown-toggle {
+    margin-left: -14px; /* يمكنك تعديل هذه القيمة حسب الحاجة */
+  }
+}
+
