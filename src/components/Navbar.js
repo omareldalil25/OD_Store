@@ -40,7 +40,7 @@ const Navbar = ({ userName }) => {
         <div className="d-flex align-items-center">
           <a className="navbar-brand" href="/">
             <img
-              src="/Logo2.svg"
+              src="/logo2.svg"
               alt="OD Store Logo"
               width="40"
               height="40"
